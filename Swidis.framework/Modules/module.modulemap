@@ -1,0 +1,10 @@
+framework module Swidis {
+  umbrella header "Swidis.h"
+
+  export *
+  module * { export * }
+}
+
+module Swidis.Swift {
+    header "Swidis-Swift.h"
+}
