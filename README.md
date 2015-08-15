@@ -9,7 +9,7 @@ Just add the framework to your project for both Simulator and iOS Device (Or whi
 `let redis = Swidis()`
 
 ####Configure Redis Server: 
-`redis.server("52.20.121.253", onPort: 6379)`
+`redis.server("XXX.XX.XXX.XXX", onPort: 6379)`
 
 ####Send Commands [We are working on other Commands :)].
 `redis.Command("SET a "Apple"")`
